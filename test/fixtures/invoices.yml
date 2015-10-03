@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2015-10-03 12:13:29
+  company: MyString
+  tax: 9.99
+  salesperson: MyString
+
+two:
+  date: 2015-10-03 12:13:29
+  company: MyString
+  tax: 9.99
+  salesperson: MyString
