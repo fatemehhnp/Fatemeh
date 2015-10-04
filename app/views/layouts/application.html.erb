@@ -7,16 +7,18 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <%= link_to "Home", root_path %>
-  <%= link_to "Contact", welcome_contact_path %>
-  <%= link_to "about Us", welcome_about_path %>
-  <%= link_to "Features", welcome_features_path %>
-  <%= link_to "Faq", welcome_faq_path %>
-  <%= link_to "pricing", welcome_pricing_path %>
-  <%= link_to "invcoices", invoices_path %>
-  <%= link_to "Log In", root_path %>
-
+    <div class="container">
+    <ul class="nav nav-tabs">
+      <li><%= link_to "Home", root_path %></li>
+      <li><%= link_to "Contact", welcome_contact_path %></li>
+      <li><%= link_to "about Us", welcome_about_path %></li>
+      <li><%= link_to "Features", welcome_features_path %></li>
+      <li><%= link_to "Faq", welcome_faq_path %></li>
+      <li><%= link_to "pricing", welcome_pricing_path %></li>
+      <li><%= link_to "invcoices", invoices_path %></li>
+      <li><%= link_to "Log In", root_path %></li>
+    </ul>
 <%= yield %>
-
+  </div>
 </body>
 </html>
