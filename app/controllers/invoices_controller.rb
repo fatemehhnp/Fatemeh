@@ -4,8 +4,8 @@ class InvoicesController < ApplicationController
   # GET /invoices
   # GET /invoices.json
   def index
-    @Search = Invoice1.new(params[:search])
-    @invoices = @Search.scope
+    @search = InvoiceSearch.new(params[:search])
+    @invoices = @search.scope
   end
 
   # GET /invoices/1
