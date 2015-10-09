@@ -48,3 +48,4 @@ group :development, :test do
 end
 
 gem 'bootstrap-sass', '~> 2.3.1.0'
+gem 'aws-sdk', '< 2.0'
